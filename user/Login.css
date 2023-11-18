@@ -1,0 +1,120 @@
+.head
+{
+    color: red;
+}
+.heading
+{
+    position:absolute;
+    top: 2%;
+    right:45%;
+    font-size:xx-large;
+}
+.Logo
+{
+    position: absolute;
+    right: 4%;
+    top: 2%;
+}
+*
+{
+    font-family: 'Lucida Sans';
+    overflow-x: hidden;
+}
+.ip
+{
+    right:20%;
+    top: 24%;
+    position: absolute;
+    padding: 20px 20px 20px 20px;
+    border-radius: 10px;
+    font-size: x-large;
+}
+.tab
+{
+    font-size: x-large;
+}
+input
+{
+    font-size: x-large;
+    border: 1px solid red;
+    border-radius: 30px;
+    background:transparent ;
+}
+input:hover
+{
+    border: 2px solid black;
+    background:transparent ;
+}
+.button
+{
+    background:transparent;
+    color:black;
+    height: 50px;
+    width: 150px;
+    border-radius: 100px;
+    font-size: x-large;
+    border: 2px dotted black;
+}
+.button:hover
+{
+    background-color:black;
+    color:aqua;
+    height: 55px;
+    width: 155px;
+    border-radius: 100px;
+    border: 4px dotted black;
+}
+.Lg{
+    font-size:medium ;
+}
+.rs
+{
+    background-image: url('Scrap_BG.jpg');
+    width: 44.9%;
+    height: 100%;
+    position: absolute;
+    top: 0%;
+    right: 0%;
+    box-shadow: 15px 0px 75px black;
+    animation-name: slide;
+    animation-duration: 1.4s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes slide{
+    from{right: 100%;}
+    to{right: 0%;}
+}
+
+.ls
+{
+    height: 100%;
+    top: 0%;
+    left: 0%;
+    width: 55%;
+    position:absolute;
+    background-image: url('Scrap_BG.jpg');
+}
+.midbtn
+{
+    position: absolute;
+    right: 40.5%;
+    top: 41.5%;
+    overflow: hidden;
+    animation-name: slidebutton;
+    animation-duration: 1.4s;
+    animation-fill-mode: forwards;
+}
+@keyframes slidebutton{
+    from{right: 100%;}
+    to{right: 40.5%;}
+}
+body{
+    background-image: url('Scrap_BG.jpg');
+}
+.lsi
+{
+    position: absolute;
+    left: 14%;
+    top: 8%;
+}

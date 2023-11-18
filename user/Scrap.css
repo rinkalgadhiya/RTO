@@ -1,0 +1,128 @@
+nav ul {
+    margin: 0;
+    padding: 0;
+    background-color:black;
+    color: aqua;
+    overflow: hidden;
+    z-index: 5;
+}
+nav li {
+    float: left;
+}
+nav li a {
+    display: block;
+    color:aqua;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    z-index: 5;
+}
+nav li a:hover {
+    background-color: aqua;
+    color: black;
+}
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: aqua;
+    color: black;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 5;
+}
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+    z-index: 5;
+}
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+.dropdown-content a:hover{
+    background-color: black;
+    color: aqua;
+}
+div
+{
+    font-size: large;
+}
+.Logo
+{
+    position: absolute;
+    left: 2%;
+    top: 2%;
+}
+.RVSF_Vehicle
+{
+    position:absolute;
+    left: 10%;
+    top: 25%;
+}
+.login
+{
+    position: absolute;
+    right: 25%;
+    top: 25%;
+    border: 6px double black;
+    border-radius: 10px;
+    width: 350px;
+    height: 350px;
+    font-size: 22px;
+}
+body
+{
+    background-image: url('Scrap_BG.jpg');
+}
+.Itext
+{
+    border-radius: 5px;
+    width: 300px;
+    height: 25px;
+    font-size: 20px;
+    background-color: black;
+    color: aqua;
+}
+.button
+{
+    font-size: 22px;
+    background-color: black;
+    color: aqua;
+    border-radius: 20px;
+}
+.button:hover
+{
+    background-color: aqua;
+    color: black;
+}
+.txt
+{
+    font-size:medium;
+    color: red;
+}
+.head
+{
+    color: red;
+}
+.heading
+{
+    position:absolute;
+    top: 10%;
+    left: 31%;
+    font-size:xx-large;
+}
+.topics
+{
+    position: absolute;
+    bottom: 10%;
+    left: 10%;
+    width: 80%;
+}
+*
+{
+    margin: 0px;
+    font-family: 'Lucida Sans';
+    overflow-x: hidden;
+}
